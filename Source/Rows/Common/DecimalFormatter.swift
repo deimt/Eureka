@@ -32,8 +32,8 @@ open class DecimalFormatter: NumberFormatter, FormatterProtocol {
         super.init()
         locale = Locale.current
         numberStyle = .decimal
-        minimumFractionDigits = 2
-        maximumFractionDigits = 2
+        minimumFractionDigits = 0
+        maximumFractionDigits = 0
     }
 
     required public init?(coder aDecoder: NSCoder) {
